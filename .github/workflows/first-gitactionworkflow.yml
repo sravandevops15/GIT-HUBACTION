@@ -6,3 +6,7 @@ jobs:
     steps:
       - name: first greetings
         run: echo "helo world"
+      - name: multiline
+         run: |
+              echo "line1"
+              echo "line1"
